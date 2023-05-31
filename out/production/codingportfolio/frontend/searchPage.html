@@ -1,0 +1,30 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="playlist.js" defer></script>
+    <title>New Search</title>
+</head>
+<body>
+<h2>Find Scores</h2>
+<table id="album-track-table">
+</table>
+<div class="card">
+    <h2>Find Scores</h2>
+    <form class="card-content" id="add-album-track-form">
+        <p class="form-field">
+            <label>League (ex: English Premier League, Spanish LaLiga)
+                <input type="text" required class="validated-field" id="album-asin" autofocus>
+            </label>
+        </p>
+        <p class="form-field">
+            <label>Date Range (DAYMONTHYEAR, 10121995)
+                <input type="number" id="track-number">
+            </label>
+        </p>
+        <input type="submit" id="add-album-track">
+    </form>
+</div>
+<div>
+</div>
+</body>
+</html>
